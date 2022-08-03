@@ -37,6 +37,11 @@ export default function Chart() {
           "Số lượng": 3490,
           
         },
+        {
+          name: 'Chim cảnh',
+          "Số lượng": 3490,
+          
+        },
       ];
   return (
     <div className='chart'>

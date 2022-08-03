@@ -1,24 +1,25 @@
-.userList {
+.productList {
     flex:4;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.80);
     margin:20px;
     padding: 20px;
+
   }
   
-  .userListTitle {
+  .productListTitle {
     font-size: 22px;
     font-weight: 600;
     padding-bottom: 10px;
 
   }
   
-  .userListUser {
+  .productListProduct {
     display: flex;
     align-items: center;
   }
   
-  .userListImg {
+  .productListImg {
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -26,7 +27,7 @@
     margin-right: 10px;
   }
   
-  .userListEdit{
+  .productListEdit{
       border: none;
       border-radius: 10px;
       padding: 5px 10px;
@@ -36,11 +37,11 @@
       margin-right: 20px;
   }
   
-  .userListDelete{
+  .productListDelete{
       color: red;
       cursor: pointer;
   }
-  .userAddBtn{
+  .productAddBtn{
     border-radius: 5px;
     border: none;
     padding: 5px;
